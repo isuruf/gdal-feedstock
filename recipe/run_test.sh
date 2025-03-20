@@ -5,7 +5,7 @@ set -e
 # print all commands
 set -x
 
-pushd $( dirname "${BASH_SOURCE[0]}" )/test_data/
+pushd ./test_data/
 
 # From @mhearne-usgs. See https://github.com/conda-forge/gdal-feedstock/issues/23#issue-144997326
 echo ""
